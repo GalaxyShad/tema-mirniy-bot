@@ -94,11 +94,11 @@ class CsGoCaseMgr:
 
         if drop['quality'] in CASES_QUALITY:
             drop['quality'] = CASES_QUALITY[drop['quality']]
-            
+
         drop['rarity_color'] = rarity
         drop['case_name'] = case_info['case_name_rus']
         drop['case_img_url'] = case_info['case_img_url']
-        drop['gif_time'] = (csgo_roll.get_max_frames() * 20) / 1000 + 0.45
+        drop['gif_time'] = (csgo_roll.get_max_frames() * 20) / 1000 + 0.65
 
         return (True, drop, gif)
 
