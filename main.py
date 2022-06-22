@@ -5,9 +5,9 @@ import time
 import datetime
 import requests
 
-from manOfDay import ManOfDay   # Волк дня
-from caseSys import CaseMgr     # Открытие кейсов
-from thiefSys import *
+from man_of_day import ManOfDay   # Волк дня
+from case_sys import CaseMgr     # Открытие кейсов
+from thief_sys import *
 
 from bs4 import BeautifulSoup
 
