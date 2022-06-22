@@ -7,19 +7,18 @@ import requests
 
 from man_of_day import ManOfDay      # Волк дня
 from case_sys import CsGoCaseMgr     # Открытие кейсов
-from thief_sys import *
 
 from bs4 import BeautifulSoup
 
 from private_stuff import TOKEN, CREATOR_ID
 
 
-DEBUG = True
+DEBUG = False
 
 # === Константы ===
 QUOTES_URL = "https://socratify.net/quotes"  # Сайт с цитатами
 
-DAY_WOLF_PATH = "wolf_of_day\\"
+DAY_WOLF_PATH = "bin\\wolfs"
 THIEF_PATH = "thiefs\\"
 
 CASE_COST = 50              # Цена кейсов
@@ -122,10 +121,6 @@ case_spam_counter = 0
 @client.event
 async def on_ready():
     print('Залогинен, как {0.user}'.format(client))
-    if not os.path.exists(DAY_WOLF_PATH):
-        os.mkdir(DAY_WOLF_PATH)
-    if not os.path.exists(THIEF_PATH):
-        os.mkdir(THIEF_PATH)
 
 
 @client.event
@@ -319,16 +314,13 @@ async def on_message(message):
         await message.channel.send('**' + random.choice(MSGS_WOLF[3]) + '<@' + user +'>' + '**')
 
         # Добавляем денег участникам воров
-        reward = WOLF_DAY_REWARD
+        # reward = WOLF_DAY_REWARD
 
         # Награда за юбилейное становление волком дня
-        top = ManOfDay.get_top(DAY_WOLF_PATH+file_name+'.txt')
-        if top[user] % 10 == 0:
-            reward = TEN_WOLF_DAY_REWARD
-            await message.channel.send(f':fire::partying_face: **Поздравляем, <@{user}>! Вы достигли юбилейного значения, награда зачислена на ваш счет!** :partying_face::fire:')
-                
-        if vor_add_to_balance(THIEF_PATH+file_name+'.txt', user, reward) == 1:
-            await message.channel.send(f':money_with_wings: <@{user}> Ваш баланс был пополнен на {reward} руб!')
+        # top = ManOfDay.get_top(DAY_WOLF_PATH+file_name+'.txt')
+        # if top[user] % 10 == 0:
+        #     reward = TEN_WOLF_DAY_REWARD
+        #     await message.channel.send(f':fire::partying_face: **Поздравляем, <@{user}>! Вы достигли юбилейного значения, награда зачислена на ваш счет!** :partying_face::fire:')
 
         return
     
@@ -362,45 +354,45 @@ async def on_message(message):
         await message.channel.send(string)
     
     # воррег - заводит виртуальный кошелек для пользователя
-    if msg[0] == 'воррег':
-        file_name = 'debug'
-        if (message.guild != None and not DEBUG):
-            file_name = str(message.guild.id)
+    # if msg[0] == 'воррег':
+    #     file_name = 'debug'
+    #     if (message.guild != None and not DEBUG):
+    #         file_name = str(message.guild.id)
         
-        file_name = THIEF_PATH+file_name+'.txt'
+    #     file_name = THIEF_PATH+file_name+'.txt'
 
-        if vor_reg(file_name, str(message.author.id)):
-            await message.channel.send(f'{message.author.mention}, \
-                регистрация прошла успешно!\n:credit_card: **Ваш баланс:** {START_THIEF_BALANCE} руб.')
-            return
-        else:
-            await message.channel.send(f'Лее, {message.author.mention}, ты уже в игре!')
-            return
+    #     if vor_reg(file_name, str(message.author.id)):
+    #         await message.channel.send(f'{message.author.mention}, \
+    #             регистрация прошла успешно!\n:credit_card: **Ваш баланс:** {START_THIEF_BALANCE} руб.')
+    #         return
+    #     else:
+    #         await message.channel.send(f'Лее, {message.author.mention}, ты уже в игре!')
+    #         return
 
-    # воррег - отображает топ кошельков игроков
-    if msg[0] == 'ворбаланс' or msg[0] == 'вортоп':
-        file_name = 'debug'
-        if (message.guild != None and not DEBUG):
-            file_name = str(message.guild.id)
+    # # воррег - отображает топ кошельков игроков
+    # if msg[0] == 'ворбаланс' or msg[0] == 'вортоп':
+    #     file_name = 'debug'
+    #     if (message.guild != None and not DEBUG):
+    #         file_name = str(message.guild.id)
         
-        file_name = THIEF_PATH+file_name+'.txt'
-        wallets = vor_get_all_wallets(file_name)
+    #     file_name = THIEF_PATH+file_name+'.txt'
+    #     wallets = vor_get_all_wallets(file_name)
 
-        if wallets == None:
-            await message.channel.send(f'[:no_entry: Ошибка] Не найдено ни одного кошелька! **Чтобы завести кошелек, пиши - воррег.**')
-            return
+    #     if wallets == None:
+    #         await message.channel.send(f'[:no_entry: Ошибка] Не найдено ни одного кошелька! **Чтобы завести кошелек, пиши - воррег.**')
+    #         return
             
-        # Великая сортировка от Максима Заказчика
-        wallets = {k: v for k, v in sorted(wallets.items(),
-               key=lambda item: item[1])[::-1]}
+    #     # Великая сортировка от Максима Заказчика
+    #     wallets = {k: v for k, v in sorted(wallets.items(),
+    #            key=lambda item: item[1])[::-1]}
 
-        ans = 'Топ воров за все время:\n'
-        i = 0
-        for wallet in wallets:
-            ans += '**' + str(i+1) + '.**  :credit_card: <@' + wallet + '> - ' + str(wallets[wallet]) + ' руб.\n'
-            i += 1
+    #     ans = 'Топ воров за все время:\n'
+    #     i = 0
+    #     for wallet in wallets:
+    #         ans += '**' + str(i+1) + '.**  :credit_card: <@' + wallet + '> - ' + str(wallets[wallet]) + ' руб.\n'
+    #         i += 1
     
-        await message.channel.send(ans)
+    #     await message.channel.send(ans)
         
     # Тригеры на слова
     if msg[0] == 'так' and msg[1] == 'но':
@@ -434,16 +426,13 @@ async def on_message(message):
         '   :small_orange_diamond: **"инфа/вероятность/шанс/процент [сообщение]"** - выводит рандомное число от 0 до 100.\n' + \
         '   :small_orange_diamond: **"цитата"** - выводит рандомную цитату.\n' + \
         '   ----------\n' + \
-        f'   :small_orange_diamond: **"воррег"** - регистрация кошелька Вора с изначальной суммой - {START_THIEF_BALANCE} руб. Заработать деньги можно путем награды за должность Волк Дня или испытывая удачу открытием кейсов за {CASE_COST} руб.\n' + \
-        '   :small_orange_diamond: **"ворбаланс/вортоп"** - выводит баланс всех "Воров", начиная с самого богатого.\n' + \
-        '   ----------\n' + \
-        f'   :small_orange_diamond: **"опенкейс [кейс]"** (только для тех у кого есть кошелек Вора) - открывает кейс из CS:GO, если же кейс не указан, то откроет рандомный. Если вы Вор, то цена открытия кейса - {CASE_COST} руб. Шансы выпадения предметов: Нож - 1%, Красное - 2%, Розовое - 5%, Фиолетовое - 12%, Синька - 80%.\n' + \
+        f'   :small_orange_diamond: **"опенкейс [кейс]"** - открывает кейс из CS:GO, если же кейс не указан, то откроет рандомный.\n' + \
         '   :small_orange_diamond: **"кейслист"** - выводит список всех доступных кейсов из CS:GO.\n' + \
         '   :small_orange_diamond: **"кейсдроп [кейс]"** - выводит весь дроп который может выпасть из указанного кейса.\n' + \
         '   ----------\n' + \
         '   :small_orange_diamond: **"волкрег"** - зарегистрироваться в рулетке, определяющей настоящего B♂ss ♂f the gym дня :sunglasses:.\n' + \
         '   :small_orange_diamond: **"волктоп"** - выводит топ волков дня.\n' + \
-        f'   :small_orange_diamond: **"волкдня"** - определяет волка дня, если вы Вор и Волк дня, то получите награду - {WOLF_DAY_REWARD} руб.\n'
+        f'   :small_orange_diamond: **"волкдня"** - определяет волка дня.\n'
         await message.channel.send(answer)
 
 client.run(TOKEN)  # Запуск бота

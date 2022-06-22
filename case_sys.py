@@ -14,20 +14,14 @@ CASES_RARITY = {
     'red':    'Тайное', 
     'gold':   'Редкое', 
 }
+CASES_QUALITY = {
+    'Factory New': 'Прямо с завода',
+    'Minimal Wear': 'Немного поношенное',
+    'Field-Tested': 'После полевых испытаний',
+    'Well-Worn': 'Поношенное',
+    'Battle-Scarred': 'Закаленное в боях'
+}
 
-# Руссификаця качества
-# quality = ''
-
-# if drop.quality == 'Factory New':
-#     quality = 'Прямо с завода'
-# elif drop.quality == 'Minimal Wear':
-#     quality = 'Немного поношенное'
-# elif drop.quality == 'Field-Tested':
-#     quality = 'После полевых испытаний'
-# elif drop.quality == 'Well-Worn':
-#     quality = 'Поношенное'
-# elif drop.quality == 'Battle-Scarred':
-#     quality = 'Закаленное в боях'
 
 
 def get_random_rarity():
@@ -57,7 +51,7 @@ class CsGoCaseMgr:
 
 
     def open_case(self, case_name = None):
-        print(case_name, type(case_name))
+
         if case_name is None:
             case_name = random.choice(list(self.cases))
         elif type(case_name) == str:
@@ -98,10 +92,13 @@ class CsGoCaseMgr:
         csgo_roll = CsGoRoll(images)
         gif = csgo_roll.bmake_gif()
 
+        if drop['quality'] in CASES_QUALITY:
+            drop['quality'] = CASES_QUALITY[drop['quality']]
+            
         drop['rarity_color'] = rarity
         drop['case_name'] = case_info['case_name_rus']
         drop['case_img_url'] = case_info['case_img_url']
-        drop['gif_time'] = (csgo_roll.get_max_frames() * 20) / 1000 + 0.30
+        drop['gif_time'] = (csgo_roll.get_max_frames() * 20) / 1000 + 0.45
 
         return (True, drop, gif)
 
