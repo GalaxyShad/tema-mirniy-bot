@@ -89,6 +89,14 @@ class CsGoCaseMgr:
         return (True, drop, gif)
 
 
+    def get_cases_names(self):
+        res = []
+        
+        for case_name in self.cases:
+            res.append({'en': case_name, 'ru': self.cases[case_name]['name_rus']})
+
+        return res
+
 
     def get_drop_from_case(self, case_info, rarity):
         weapon_name = random.choice(list(case_info['items'][rarity]))

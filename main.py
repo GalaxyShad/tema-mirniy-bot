@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 from private_stuff import TOKEN, CREATOR_ID
 
+
 DEBUG = False
 
 # === Константы ===
@@ -204,7 +205,7 @@ async def on_message(message):
         await message.channel.send('Список доступных кейсов:\n' + CaseMgr.get_str_cases_names())
         return
 
-    # кейдроп [название кейса] - выводит весь дроп из указанного кейса
+    # кейсдроп [название кейса] - выводит весь дроп из указанного кейса
     if msg[0] == 'кейсдроп':
         str_drop_list = CaseMgr.get_str_case_drop(msg[1])
 
