@@ -5,8 +5,8 @@ import time
 import datetime
 import requests
 
-from man_of_day import ManOfDay   # Волк дня
-from case_sys import CaseMgr     # Открытие кейсов
+from man_of_day import ManOfDay      # Волк дня
+from case_sys import CsGoCaseMgr     # Открытие кейсов
 from thief_sys import *
 
 from bs4 import BeautifulSoup
@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 from private_stuff import TOKEN, CREATOR_ID
 
 
-DEBUG = False
+DEBUG = True
 
 # === Константы ===
 QUOTES_URL = "https://socratify.net/quotes"  # Сайт с цитатами
@@ -106,17 +106,10 @@ MSGS_WHO = [
     'Кто-то',
 ]
 
-# Смайлы для обозначения качества шмоток кейсов
-DROP_SMILES = [
-    ':blue_square:', 
-    ':purple_square:', 
-    ':small_red_triangle_down:', 
-    ':red_square:', 
-    ':yellow_square:'
-]
 
 # === Переменные ===
 client = discord.Client()
+csgo_case_mgr = CsGoCaseMgr()
 
 msg = []  # Принимаемое сообщение
 
@@ -137,8 +130,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    msg = message.content.lower().split()
-
     # Закрепление сообщения с редким дропом
     if message.author == client.user:
         if (len(message.embeds) != 0):
@@ -150,6 +141,11 @@ async def on_message(message):
     # Проверка, что мы находимся в беседе
     if DEBUG and (message.guild != None or message.author.id != CREATOR_ID):
         return
+
+    if not 'опенкейс' in message.content:
+        msg = message.content.lower().split()
+    else:
+        msg = message.content.split()
 
     if len(msg) == 0:
         return
@@ -202,101 +198,86 @@ async def on_message(message):
 
     # кейслист - выводит список всех кейсов
     if msg[0] == 'кейслист':
-        await message.channel.send('Список доступных кейсов:\n' + CaseMgr.get_str_cases_names())
+        cases_names = csgo_case_mgr.get_cases_names()
+
+        resp = ""
+
+        for i in range(len(cases_names)):
+            resp += f":package: {cases_names[i]['en']} - {cases_names[i]['ru']}\n"
+
+        await message.channel.send(resp)
         return
 
-    # кейсдроп [название кейса] - выводит весь дроп из указанного кейса
-    if msg[0] == 'кейсдроп':
-        str_drop_list = CaseMgr.get_str_case_drop(msg[1])
-
-        if str_drop_list == ValueError:
-            await message.channel.send('[:no_entry: Ошибка] Нужно указать кейс! Список кейсов - "кейслист"')
-            return
-
-        await message.channel.send(str_drop_list)
-        return
 
     # опенкейс [название кейса] - открывает указанный кейс,
     # если же кейс не указан, то откроет рандомный
     if msg[0] == 'опенкейс':
-        # Проверка, вор ли пользователь...
-        file_name = 'debug'
-        if (message.guild != None and not DEBUG):
-            file_name = str(message.guild.id)
-        
-        file_name = THIEF_PATH+file_name+'.txt'
-
-        wd_code = vor_withdraw_from_balance(file_name, str(message.author.id), CASE_COST)
-        if wd_code == 0:
-            await message.channel.send(f'[:no_entry: Ошибка] {message.author.mention},' + \
-                f'для использования этой комманды нужно завести кошелек вора. **Пиши: "темахелп" для вызова справки.**')
-            return
-        elif wd_code == 2:
-            wallets = vor_get_all_wallets(file_name)
-            await message.channel.send(f'Эй, {message.author.mention}, на твоем балансе недостаточно денег!\n' + \
-                f':credit_card: **Ваш баланс:** {wallets[str(message.author.id)]} руб.')
-            return
-
         global is_case_opening
-        global case_spam_counter
+
+        if is_case_opening:
+            return
+        
+        case_name = None
+        n = len(msg)
+
+        if n >= 2:
+            case_name = ''
+            for i in range(1, n):
+                case_name += msg[i]
+                if i != n-1:
+                    case_name += ' '
+        else:
+            await message.channel.send(f'Случайный выбор кейса...')
 
         is_case_opening = True
 
-        case_name = 'random'
-        if len(msg) != 1:
-            await message.channel.send('Рандомный выбор кейса.')
-            case_name = msg[1]
-
-        cool = CaseMgr.open_case(case_name)
-        drop = cool[0]
-        if (type(drop) == int):
-            if (drop == -1):
-                await message.channel.send(f'Эй, {message.author.mention}, такого кейса не существует!\n' + \
-                    'Пиши "кейслист", чтобы узнать список доступных кейсов.')
-                is_case_opening = False
-                return
-            else:
-                await message.channel.send(f'[:no_entry: Ошибка] {message.author.mention},' + \
-                    f'превышено количество запросов на сервер! Попробуйте еще раз через {drop} минут(ы).')
-                is_case_opening = False
-                return
-
+        status, drop, gif = csgo_case_mgr.open_case(case_name)
+        if status == False:
+            await message.channel.send(f'[:no_entry: Ошибка] {drop}')
+            is_case_opening = False
+            return
         
-        if (case_name == "random"):
-            await message.channel.send(f'Открытие рандомного кейса для {message.author.mention} за {CASE_COST} руб. ...')
-        else:
-            await message.channel.send(f'Открытие кейса "{case_name.upper()}" для {message.author.mention} за {CASE_COST} руб. ...')
+        await message.channel.send(f'Открытие кейса "{drop["case_name"].upper()}" для {message.author.mention}...')
 
-        # Руссификаця качества
-        quality = ''
+        gif.seek(0)
+        await message.channel.send(file=discord.File(gif, filename='drop.gif'))
 
-        if drop.quality == 'Factory New':
-            quality = 'Прямо с завода'
-        elif drop.quality == 'Minimal Wear':
-            quality = 'Немного поношенное'
-        elif drop.quality == 'Field-Tested':
-            quality = 'После полевых испытаний'
-        elif drop.quality == 'Well-Worn':
-            quality = 'Поношенное'
-        elif drop.quality == 'Battle-Scarred':
-            quality = 'Закаленное в боях'
+        time.sleep(drop['gif_time'])
 
-        color = [0x45abfe, 0x792cb6, 0xdc10d0, 0xc93330, 0xffe000]
-        cost = int(float(drop.cost.replace(",", '.').replace("pуб.", '')))+1
+        # Смайлы для обозначения качества шмоток кейсов
+        cosmetics = {
+            'blue': (':blue_square:', 0x45abfe), 
+            'purple': (':purple_square:', 0x792cb6), 
+            'pink': (':small_red_triangle_down:', 0xdc10d0), 
+            'red': (':red_square:', 0xc93330), 
+            'gold': (':yellow_square:', 0xffe000)
+        }
 
-        emb = discord.Embed(title=f'{DROP_SMILES[drop.color]} {drop.name} {DROP_SMILES[drop.color]}', color=color[drop.color])
-        emb.add_field(name='Качество:', value=quality)
-        emb.add_field(name=':dollar: Цена:', value=(str(cost) + ' руб.'))
-        # if drop.color < 3:
-        #     emb.set_thumbnail(url=drop.img)
-        # else: 
-        #     emb.set_image(url=drop.img)
+        smile, color = cosmetics[drop['rarity_color']]
+
+        emb = discord.Embed(
+            title = f'{smile} {drop["name"]} {smile}',
+            color = color
+        )
+
+        emb.set_footer(
+            text = drop['case_name'], 
+            icon_url = drop['case_img_url']
+        )
+
+        emb.add_field(name=':sparkles: Качество:', value = drop['quality'])
+        emb.add_field(name=':dollar: Цена:', value = drop['price'])
+
+        if drop['rarity_color'] == 'red' or drop['rarity_color'] == 'gold':
+            emb.set_image(url = drop['img_url'])
+        else: 
+            emb.set_thumbnail(url = drop['img_url'])
         
-        vor_add_to_balance(file_name, str(message.author.id), cost)
-        wallets = vor_get_all_wallets(file_name)
-        await message.channel.send(f':fire: Поздравляем, {message.author.mention}!!! :fire:\n' + \
-            f':credit_card: **Ваш текущий баланс:** {wallets[str(message.author.id)]} руб.', embed=emb, 
-            file=discord.File(f'cases\\{cool[1]}\\{drop.name.replace(" | ", "_")}.png') )  #, file=discord.File(drop.img, 'drop.png'))
+        await message.channel.send(
+            f':fire: Поздравляем, {message.author.mention}!!! :fire:\n', 
+            embed = emb, 
+        ) 
+
         is_case_opening = False
         return 
 

@@ -15,6 +15,20 @@ CASES_RARITY = {
     'gold':   'Редкое', 
 }
 
+# Руссификаця качества
+# quality = ''
+
+# if drop.quality == 'Factory New':
+#     quality = 'Прямо с завода'
+# elif drop.quality == 'Minimal Wear':
+#     quality = 'Немного поношенное'
+# elif drop.quality == 'Field-Tested':
+#     quality = 'После полевых испытаний'
+# elif drop.quality == 'Well-Worn':
+#     quality = 'Поношенное'
+# elif drop.quality == 'Battle-Scarred':
+#     quality = 'Закаленное в боях'
+
 
 def get_random_rarity():
     # return 'gold'
@@ -43,13 +57,14 @@ class CsGoCaseMgr:
 
 
     def open_case(self, case_name = None):
+        print(case_name, type(case_name))
         if case_name is None:
             case_name = random.choice(list(self.cases))
-        elif case_name is str:
+        elif type(case_name) == str:
             if not case_name in self.cases:
-                return (False, None, None)
+                return (False, 'Указанного кейса не существует.', None)
         else:
-            return (False, None, None)
+            return (False, 'Аргумент case_name инвалидный', None)
 
         rarity = get_random_rarity()
         
@@ -83,15 +98,17 @@ class CsGoCaseMgr:
         csgo_roll = CsGoRoll(images)
         gif = csgo_roll.bmake_gif()
 
+        drop['rarity_color'] = rarity
         drop['case_name'] = case_info['case_name_rus']
         drop['case_img_url'] = case_info['case_img_url']
+        drop['gif_time'] = (csgo_roll.get_max_frames() * 20) / 1000 + 0.30
 
         return (True, drop, gif)
 
 
     def get_cases_names(self):
         res = []
-        
+
         for case_name in self.cases:
             res.append({'en': case_name, 'ru': self.cases[case_name]['name_rus']})
 
@@ -153,7 +170,8 @@ class CsGoRoll:
         self.WIDTH  = 400
         self.HEIGHT = 100
 
-        self.spd = 15
+        self.start_spd = 15#15
+        self.spd = self.start_spd
         self.x = 0
         self.items = []
 
@@ -248,7 +266,7 @@ class CsGoRoll:
 
 
     def get_max_frames(self):
-        return int(self.spd / self.dec) 
+        return int(self.start_spd / self.dec) 
 
 
     def bmake_gif(self):
@@ -259,7 +277,7 @@ class CsGoRoll:
         buf = io.BytesIO()
         frame_one = frames[0]
         frame_one.save(buf, format="GIF", append_images=frames,
-                       save_all=True, duration=20, optimize=False, loop=1)
+                       save_all=True, duration=20, optimize=True, loop=1)
 
         return buf
      
