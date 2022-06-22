@@ -1,0 +1,270 @@
+{
+  "case_name": "eSports 2013 Winter Case",
+  "case_name_rus": "Зимний кейс eSports 2013",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Yz7KKcPzwav9jnzdfdlfWmY7_TzmkF6ZMlj77A9o3x0Qe1qhBkZGjxI9LBJgMgIQaH1G7WeaA/360fx360f",
+  "case_img_path": "eSports 2013 Winter Case.png",
+  "items": {
+    "white": {},
+    "lightblue": {},
+    "blue": {
+      "Galil AR | Blue Titanium": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczJfwJW5ci3momemqSkJYTdn2xZ_Pp9i_vG8MKh2gLgrks5MGigcdLHcVRtNFvRq1m3kufsgcW6v52bnXdl7iQq5SzcgVXp1kCDJqwD/360fx360f",
+        "img_path": "Galil AR I Blue Titanium.png",
+        "prices": {
+          "Factory New": "$1.30",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "78.13₽",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Автомат «Галиль» | Синий титан",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Five-SeveN | Nightshade": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjVb09q6m5eOheTLP7LWnn9u5MRjjeyPoYqs3FGwrUU9MGnwJtWUd1BrNQmGq1fskO-5h5K-uczNmiNr6HR3sWGdwUIatDTvmQ/360fx360f",
+        "img_path": "Five-SeveN I Nightshade.png",
+        "prices": {
+          "Factory New": "$1.08",
+          "Minimal Wear": "$0.89",
+          "Field-Tested": "$0.80",
+          "Well-Worn": null,
+          "Battle-Scarred": "$1.38"
+        },
+        "rus_prices": {
+          "Factory New": "64.91₽",
+          "Minimal Wear": "53.49₽",
+          "Field-Tested": "48.08₽",
+          "Well-Worn": null,
+          "Battle-Scarred": "82.94₽"
+        },
+        "name_rus": "Five-SeveN | Паслен",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "PP-Bizon | Water Sigil": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3ZjxW6c6Jl5KOhOPLP7LWnn9u5MRjjeyP9tjx2FW1r0o_MWH0LIGVJA46N1vX-ljol-29jcPv75SfnHZrs3Qq7GGdwUJWqynhYQ/360fx360f",
+        "img_path": "PP-Bizon I Water Sigil.png",
+        "prices": {
+          "Factory New": "$1.10",
+          "Minimal Wear": "$0.92",
+          "Field-Tested": "$0.83",
+          "Well-Worn": null,
+          "Battle-Scarred": "$0.87"
+        },
+        "rus_prices": {
+          "Factory New": "66.11₽",
+          "Minimal Wear": "55.29₽",
+          "Field-Tested": "49.88₽",
+          "Well-Worn": null,
+          "Battle-Scarred": "52.29₽"
+        },
+        "name_rus": "ПП-19 «Бизон» | Знак воды",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Nova | Ghost Camo": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouLWzKjhzw8zLcDBN08u5m4S0lfvhNoTdn2xZ_Pp9i_vG8MLx3gex-0U9YGGmcoWcdFc3ZV2Erwfqxr3u1MK16MzAmyNks3Z343-JgVXp1jwjyNzI/360fx360f",
+        "img_path": "Nova I Ghost Camo.png",
+        "prices": {
+          "Factory New": "$1.00",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": "$1.88",
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "60.10₽",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": "112.99₽",
+          "Battle-Scarred": null
+        },
+        "name_rus": "Nova | Призрачный камуфляж",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "G3SG1 | Azure Zebra": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposem2LFZfwOP3azhA_t21lY20lfvhNoTdn2xZ_Pp9i_vG8MKh2gXt8hVlMG2gJNTBc1BoaA7V_Fjqx7vohpK075ianCY1viYh5SnYgVXp1mYsRA_Y/360fx360f",
+        "img_path": "G3SG1 I Azure Zebra.png",
+        "prices": {
+          "Factory New": "$1.05",
+          "Minimal Wear": "$0.86",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "63.11₽",
+          "Minimal Wear": "51.69₽",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "G3SG1 | Лазурная зебра",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "P250 | Steel Disruption": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhh3szMdS1D-NizmpOOqOT9P63UhFRd4cJ5ntbN9J7yjRrn_UFuYzvwLIKVew9rNV7RqVPsyLy-g5Lt6pXAwCBrsyJ34S7ZzBC_n1gSOZc29THf/360fx360f",
+        "img_path": "P250 I Steel Disruption.png",
+        "prices": {
+          "Factory New": "$1.04",
+          "Minimal Wear": "$1.22",
+          "Field-Tested": "$1.23",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "62.50₽",
+          "Minimal Wear": "73.32₽",
+          "Field-Tested": "73.92₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "P250 | Ржавая сталь",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "purple": {
+      "AK-47 | Blue Laminate": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhoyszJemkV4N27q4KHgvLLP7LWnn9u5MRjjeyPrIqtjVfh-kNvNj-iIdSSIwZsYlHR8wC_wrzr0cO7tMjImyZluyJz5WGdwUKTUQkCog/360fx360f",
+        "img_path": "AK-47 I Blue Laminate.png",
+        "prices": {
+          "Factory New": "$9.95",
+          "Minimal Wear": "$7.75",
+          "Field-Tested": "$7.56",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "598.00₽",
+          "Minimal Wear": "465.78₽",
+          "Field-Tested": "454.36₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "AK-47 | Синий глянец",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "P90 | Blind Spot": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957P7HdS5S48ilq4yCkP_gDLfQhGxUpsQm2rvDrYrwiVLkrkFpZWGmIobAJFQ8MArX-FO2wOe9hZO-vciYzSB9-n51N7wse9o/360fx360f",
+        "img_path": "P90 I Blind Spot.png",
+        "prices": {
+          "Factory New": "$7.83",
+          "Minimal Wear": "$7.60",
+          "Field-Tested": "$6.70",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "470.58₽",
+          "Minimal Wear": "456.76₽",
+          "Field-Tested": "402.67₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "P90 | Слепое пятно",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      }
+    },
+    "pink": {
+      "FAMAS | Afterimage": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLuoKhRf0Ob3cy9N59m4q5CKg__LNbrcl3hu5Mx2gv3--Y3nj1H6_hdoZmzwLYGWd1I2YlCGrATolezpgZC77ZWaznRk6Ccj7X_azBK_hAYMMLKHDT3r_w/360fx360f",
+        "img_path": "FAMAS I Afterimage.png",
+        "prices": {
+          "Factory New": "$52.03",
+          "Minimal Wear": "$35.19",
+          "Field-Tested": "$23.08",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "3127.00₽",
+          "Minimal Wear": "2114.92₽",
+          "Field-Tested": "1387.11₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "FAMAS | Остаточное изображение",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "AWP | Electric Hive": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FA957PvBZzh94NWxnJS0m_bmNL6fxDoJsZwk0uyT9Ir02lfi8hA6MD2nLIaScwQ6MlrX8wC-lOjrgJC-uYOJlyVQbQuu3g/360fx360f",
+        "img_path": "AWP I Electric Hive.png",
+        "prices": {
+          "Factory New": "$54.33",
+          "Minimal Wear": "$39.99",
+          "Field-Tested": "$31.21",
+          "Well-Worn": "$33.67",
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "3265.23₽",
+          "Minimal Wear": "2403.40₽",
+          "Field-Tested": "1875.72₽",
+          "Well-Worn": "2023.57₽",
+          "Battle-Scarred": null
+        },
+        "name_rus": "AWP | Электрический улей",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "Desert Eagle | Cobalt Disruption": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjlG_N2ikIWFhPLLI77QlWRS4_p9g-7J4bP5iUazrl09Z2H1cNSWcwA-MwuEqQe4k73q1JfotJzOwCFnvyBw5X2LmRe3gB1NcKUx0r3Iy7zp/360fx360f",
+        "img_path": "Desert Eagle I Cobalt Disruption.png",
+        "prices": {
+          "Factory New": "$60.87",
+          "Minimal Wear": "$44.12",
+          "Field-Tested": "$35.21",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "3658.29₽",
+          "Minimal Wear": "2651.61₽",
+          "Field-Tested": "2116.12₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Desert Eagle | Ржавый кобальт",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      }
+    },
+    "red": {
+      "M4A4 | X-Ray": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszQYzxb09Hiq4yCkP_gDLfQhGxUpsAo2LDD99-s0QywrUdlY2ugJtTBdFA4NwqC_Va7kru8hZG9uZjBmyN9-n51YAq6eTE/360fx360f",
+        "img_path": "M4A4 I X-Ray.png",
+        "prices": {
+          "Factory New": "$15.70",
+          "Minimal Wear": "$10.74",
+          "Field-Tested": "$12.30",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "943.57₽",
+          "Minimal Wear": "645.47₽",
+          "Field-Tested": "739.23₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "M4A4 | Рентген",
+        "rarity_index": 5,
+        "rarity_color": "#eb4b4b"
+      }
+    }
+  }
+}

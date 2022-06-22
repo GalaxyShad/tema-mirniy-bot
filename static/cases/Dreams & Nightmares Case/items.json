@@ -1,0 +1,179 @@
+{
+  "name": "Dreams & Nightmares Case",
+  "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFQwnfCcJmxDv9rhwIHZwqP3a-uGwz9Xv8F0j-qQrI3xiVLkrxVuZW-mJoWLMlhpWhFkc9M/360fx360f",
+  "drop": [
+    {
+      "name": "Five-SeveN | Scrawl",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAC-10 | Ensnared",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAG-7 | Foresight",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MP5-SD | Necro Jr.",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "P2000 | Lifted Spirits",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | Poultrygeist",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Sawed-Off | Spirit Board",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "PP-Bizon | Space Cat",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "G3SG1 | Dream Glade",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A1-S | Night Terror",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "XM1014 | Zombie Offensive",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "USP-S | Ticket to Hell",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Dual Berettas | Melondrama",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "FAMAS | Rapid Eye Movement",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "MP7 | Abyssal Apparition",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AK-47 | Nightwish",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "MP9 | Starlight Protector",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ],
+  "name_rus": "\u041a\u0435\u0439\u0441 \u00ab\u0413\u0440\u0451\u0437\u044b \u0438 \u043a\u043e\u0448\u043c\u0430\u0440\u044b\u00bb",
+  "drop_rus": [
+    {
+      "name": "Five-SeveN | \u041a\u0430\u0440\u0430\u043a\u0443\u043b\u0438",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAC-10 | \u0417\u0430\u0442\u043e\u0447\u0435\u043d\u0438\u0435",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAG-7 | \u041f\u0440\u0435\u0434\u0441\u043a\u0430\u0437\u0430\u043d\u0438\u0435",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MP5-SD | \u042e\u043d\u044b\u0439 \u043d\u0435\u043a\u0440\u043e\u043c\u0430\u043d\u0442",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "P2000 | \u041f\u043e\u0434\u043d\u044f\u0442\u0438\u0435 \u0434\u0443\u0445\u043e\u0432",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | \u042d\u043a\u0437\u043e\u0440\u0446\u044b\u043f\u0430",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Sawed-Off | \u0421\u043f\u0438\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0434\u043e\u0441\u043a\u0430",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "\u041f\u041f-19 \u00ab\u0411\u0438\u0437\u043e\u043d\u00bb | \u041a\u043e\u0441\u043c\u043e\u043a\u043e\u0442",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "G3SG1 | \u041f\u043e\u043b\u044f\u043d\u0430 \u0433\u0440\u0451\u0437",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A1-S | \u041d\u043e\u0447\u043d\u043e\u0439 \u0443\u0436\u0430\u0441",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "XM1014 | \u0417\u043e\u043c\u0431\u0438-\u0441\u0442\u0440\u0430\u0439\u043a",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "USP-S | \u0411\u0438\u043b\u0435\u0442 \u0432 \u0430\u0434",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Dual Berettas | \u041f\u043b\u043e\u0434 \u0432\u043e\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "FAMAS | \u0411\u044b\u0441\u0442\u0440\u044b\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f \u0433\u043b\u0430\u0437",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "MP7 | \u0414\u0443\u0445 \u0431\u0435\u0437\u0434\u043d\u044b",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AK-47 | \u041f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u0435 \u043d\u0430 \u043d\u043e\u0447\u044c",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "MP9 | \u0417\u0432\u0451\u0437\u0434\u043d\u044b\u0439 \u0437\u0430\u0449\u0438\u0442\u043d\u0438\u043a",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ]
+}

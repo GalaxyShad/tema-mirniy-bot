@@ -1,0 +1,57 @@
+{
+  "case_name": "Huntsman Weapon Case",
+  "case_name_rus": "Охотничий оружейный кейс",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFQu0PaQIm9DtY6wzYaIxKWtN7iJwW8G6Z0h2LqWoY6s2Qy2-0Q_Nzv7IJjVLFGZqUbjlQ/360fx360f",
+  "case_img_path": "Huntsman Weapon Case.png",
+  "items": {
+    "white": {},
+    "lightblue": {},
+    "blue": {
+      "Tec-9 | Isaac": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b092lnYmGmOHLP7LWnn9u5MRjjeyPrI2hjlbtqRE6ZT_zJYSVe1Q2NwzTrwfolLq-hMPp78uayCdm6ylz5mGdwUJXtvY84A/360fx360f",
+        "img_path": "Tec-9 I Isaac.png",
+        "prices": {
+          "Factory New": "$8.70",
+          "Minimal Wear": "$2.31",
+          "Field-Tested": "$1.16",
+          "Well-Worn": "$0.73",
+          "Battle-Scarred": "$0.76"
+        },
+        "rus_prices": {
+          "Factory New": "522.87₽",
+          "Minimal Wear": "138.83₽",
+          "Field-Tested": "69.72₽",
+          "Well-Worn": "43.87₽",
+          "Battle-Scarred": "45.68₽"
+        },
+        "name_rus": "SSG 08 | Когти",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "SSG 08 | Slashed": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhjxszcdD4b092lnYmGmOHLP7LWnn9u5MRjjeyPrI2hjlbtqRE6ZT_zJYSVe1Q2NwzTrwfolLq-hMPp78uayCdm6ylz5mGdwUJXtvY84A/360fx360f",
+        "img_path": "Tec-9 I Isaac.png",
+        "prices": {
+          "Factory New": "$8.70",
+          "Minimal Wear": "$2.31",
+          "Field-Tested": "$1.16",
+          "Well-Worn": "$0.73",
+          "Battle-Scarred": "$0.76"
+        },
+        "rus_prices": {
+          "Factory New": "522.87₽",
+          "Minimal Wear": "138.83₽",
+          "Field-Tested": "69.72₽",
+          "Well-Worn": "43.87₽",
+          "Battle-Scarred": "45.68₽"
+        },
+        "name_rus": "SSG 08 | Когти",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "purple": {},
+    "pink": {},
+    "red": {}
+  }
+}

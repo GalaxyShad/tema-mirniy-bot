@@ -1,0 +1,149 @@
+{
+  "name": "Operation Vanguard Weapon Case",
+  "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFIuh6rJImVGvtjllYaNka6la7rUxWkE65BzibvD9N7z0Q22-0Fka2GlJ5jVLFHqavWW2g/360fx360f",
+  "drop": [
+    {
+      "name": "G3SG1 | Murky",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAG-7 | Firestarter",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MP9 | Dart",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Five-SeveN | Urban Hazard",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "UMP-45 | Delusion",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Glock-18 | Grinder",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A1-S | Basilisk",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A4 | Griffin",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Sawed-Off | Highwayman",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P250 | Cartel",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SCAR-20 | Cardiac",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "XM1014 | Tranquility",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AK-47 | Wasteland Rebel",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "P2000 | Fire Elemental",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ],
+  "name_rus": "\u041e\u0440\u0443\u0436\u0435\u0439\u043d\u044b\u0439 \u043a\u0435\u0439\u0441 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u00ab\u0410\u0432\u0430\u043d\u0433\u0430\u0440\u0434\u00bb",
+  "drop_rus": [
+    {
+      "name": "G3SG1 | \u041c\u0440\u0430\u043a",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MAG-7 | \u041f\u043e\u0434\u0436\u0438\u0433\u0430\u0442\u0435\u043b\u044c",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "MP9 | \u0414\u0440\u043e\u0442\u0438\u043a",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Five-SeveN | \u0413\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f \u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "UMP-45 | \u0417\u0430\u0431\u043b\u0443\u0436\u0434\u0435\u043d\u0438\u0435",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Glock-18 | \u0416\u0435\u0440\u043d\u043e\u0432",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A1-S | \u0412\u0430\u0441\u0438\u043b\u0438\u0441\u043a",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "M4A4 | \u0413\u0440\u0438\u0444\u043e\u043d",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Sawed-Off | \u0420\u0430\u0437\u0431\u043e\u0439\u043d\u0438\u043a",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P250 | \u041a\u0430\u0440\u0442\u0435\u043b\u044c",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SCAR-20 | \u041a\u0430\u0440\u0434\u0438\u043e",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "XM1014 | \u0421\u043f\u043e\u043a\u043e\u0439\u0441\u0442\u0432\u0438\u0435",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AK-47 | \u041f\u0443\u0441\u0442\u044b\u043d\u043d\u044b\u0439 \u043f\u043e\u0432\u0441\u0442\u0430\u043d\u0435\u0446",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "P2000 | \u0414\u0443\u0445 \u043e\u0433\u043d\u044f",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ]
+}

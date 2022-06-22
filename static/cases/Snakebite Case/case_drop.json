@@ -1,0 +1,375 @@
+{
+  "case_name": "Snakebite Case",
+  "case_name_rus": "Кейс «Змеиный укус»",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFU4naLOJzgUuYqyzIaIxa6jMOLXxGkHvcMjibmU99Sg3Qaw-hA_ZWrzLISLMlhpgJJUhGE/360fx360f",
+  "case_img_path": "Snakebite Case.png",
+  "items": {
+    "white": {},
+    "lightblue": {},
+    "blue": {
+      "SG 553 | Heavy Metal": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFf1OD3YjoXuY-JkIWKg__5Nq_QmlRd4cJ5ntbN9J7yjRq3_0JsZ2inJdeTew49aQzTqFe4l-zuhZW-vpjNyXRl73F3tHeLyhG2n1gSOQK8z5S-/360fx360f",
+        "img_path": "SG 553 I Heavy Metal.png",
+        "prices": {
+          "Factory New": "$0.47",
+          "Minimal Wear": "$0.18",
+          "Field-Tested": "$0.11",
+          "Well-Worn": "$0.1",
+          "Battle-Scarred": "$0.1"
+        },
+        "rus_prices": {
+          "Factory New": "28.25₽",
+          "Minimal Wear": "10.82₽",
+          "Field-Tested": "6.61₽",
+          "Well-Worn": "6.01₽",
+          "Battle-Scarred": "6.01₽"
+        },
+        "name_rus": "SG 553 | Тяжёлый метал",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Glock-18 | Clear Polymer": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf1OD3djFN79eJhI-HjvrxIYTdn2xZ_Pp9i_vG8MKsiQHiqUJpMWuncdPEdw46ZgrQ8lO-kuu-0Z-0vs7Izntl6XMqsH-OgVXp1pCcljBx/360fx360f",
+        "img_path": "Glock-18 I Clear Polymer.png",
+        "prices": {
+          "Factory New": "$0.54",
+          "Minimal Wear": "$0.19",
+          "Field-Tested": "$0.12",
+          "Well-Worn": "$0.1",
+          "Battle-Scarred": "$0.1"
+        },
+        "rus_prices": {
+          "Factory New": "32.45₽",
+          "Minimal Wear": "11.42₽",
+          "Field-Tested": "7.21₽",
+          "Well-Worn": "6.01₽",
+          "Battle-Scarred": "6.01₽"
+        },
+        "name_rus": "Glock-18 | Прозрачный полимер",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "M249 | O.S.I.P.R.": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-jxcjhnwMzFI2kb09-5mYKCmfLLP7LWnn9u5MRjjeyPo4qt3wbgrhVkam_2JIDAJlM-aFrVq1W8xLq-hZO1upSfyHsy63Z2tmGdwUIJtswwdA/360fx360f",
+        "img_path": "M249 I O.S.I.P.R..png",
+        "prices": {
+          "Factory New": "$0.36",
+          "Minimal Wear": "$0.19",
+          "Field-Tested": "$0.11",
+          "Well-Worn": "$0.11",
+          "Battle-Scarred": "$0.1"
+        },
+        "rus_prices": {
+          "Factory New": "21.64₽",
+          "Minimal Wear": "11.42₽",
+          "Field-Tested": "6.61₽",
+          "Well-Worn": "6.61₽",
+          "Battle-Scarred": "6.01₽"
+        },
+        "name_rus": "M249 | O.S.I.P.R.",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "CZ75-Auto | Circaetus": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0Ob3cicVueOhnImZm-D9Pb_ummJW4NFOhujT8om70ALi-0prZGn0IICTdwNtYl3QqAO5k-7ngse0752fyCRi6CUnsX_cyQv330-K5zDKuQ/360fx360f",
+        "img_path": "CZ75-Auto I Circaetus.png",
+        "prices": {
+          "Factory New": "$0.42",
+          "Minimal Wear": "$0.19",
+          "Field-Tested": "$0.12",
+          "Well-Worn": "$0.11",
+          "Battle-Scarred": "$0.11"
+        },
+        "rus_prices": {
+          "Factory New": "25.24₽",
+          "Minimal Wear": "11.42₽",
+          "Field-Tested": "7.21₽",
+          "Well-Worn": "6.61₽",
+          "Battle-Scarred": "6.61₽"
+        },
+        "name_rus": "CZ75-Auto | Настоящий змееяд",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "UMP-45 | Oscillator": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo7e1f1Jf0v73ZDBSuImJkYyOlOPmPKzQgG5u5Mx2gv3--Y3nj1H68ks-ZTj2JoeUIAc3Mw6FrwLsx-e7hZ7v75qcmydlvygmtimLnBC01wYMMLLb9wWKMQ/360fx360f",
+        "img_path": "UMP-45 I Oscillator.png",
+        "prices": {
+          "Factory New": "$0.36",
+          "Minimal Wear": "$0.17",
+          "Field-Tested": "$0.1",
+          "Well-Worn": "$0.11",
+          "Battle-Scarred": "$0.12"
+        },
+        "rus_prices": {
+          "Factory New": "21.64₽",
+          "Minimal Wear": "10.22₽",
+          "Field-Tested": "6.01₽",
+          "Well-Worn": "6.61₽",
+          "Battle-Scarred": "7.21₽"
+        },
+        "name_rus": "UMP-45 | Осциллятор",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "R8 Revolver | Junk Yard": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopL-zJAt21uH3di59_oSJhpWYg_z9PbzummJW4NFOhujT8om73Qbg_kJrazqlLILAc1RoaQzX_QTsxr_s0MW9tcnIyXoyvSAj5n6JnAv330-b64w-6g/360fx360f",
+        "img_path": "R8 Revolver I Junk Yard.png",
+        "prices": {
+          "Factory New": "$0.48",
+          "Minimal Wear": "$0.18",
+          "Field-Tested": "$0.11",
+          "Well-Worn": "$0.11",
+          "Battle-Scarred": "$0.1"
+        },
+        "rus_prices": {
+          "Factory New": "28.85₽",
+          "Minimal Wear": "10.82₽",
+          "Field-Tested": "6.61₽",
+          "Well-Worn": "6.61₽",
+          "Battle-Scarred": "6.01₽"
+        },
+        "name_rus": "Револьвер R8 | Автосвалка",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Nova | Windblown": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouLWzKjhzw8zGfitD08u_moS0k_7nI77DhWpd18l4jeHVyoD0mlOx5UptZm-nIdeXcgBrYQ3UqFW5l-bugcTp6ZSbzyBmvnFx5S7cmUe2hBFSLrs4oxm_23A/360fx360f",
+        "img_path": "Nova I Windblown.png",
+        "prices": {
+          "Factory New": "$0.37",
+          "Minimal Wear": "$0.18",
+          "Field-Tested": "$0.11",
+          "Well-Worn": "$0.11",
+          "Battle-Scarred": "$0.12"
+        },
+        "rus_prices": {
+          "Factory New": "22.24₽",
+          "Minimal Wear": "10.82₽",
+          "Field-Tested": "6.61₽",
+          "Well-Worn": "6.61₽",
+          "Battle-Scarred": "7.21₽"
+        },
+        "name_rus": "Nova | На крыльях ветра",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "purple": {
+      "P250 | Cyber Shell": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhnwMzYI2gS09-vloWZhP_xP7fummJW4NFOhujT8om70VLk_0NkMD2mLI-dJlI2YF7Q81S6wL_n0JC06svInyQ2siEh53-Lywv3309nhbYnfQ/360fx360f",
+        "img_path": "P250 I Cyber Shell.png",
+        "prices": {
+          "Factory New": "$1.2",
+          "Minimal Wear": "$0.48",
+          "Field-Tested": "$0.24",
+          "Well-Worn": "$0.25",
+          "Battle-Scarred": "$0.27"
+        },
+        "rus_prices": {
+          "Factory New": "72.12₽",
+          "Minimal Wear": "28.85₽",
+          "Field-Tested": "14.42₽",
+          "Well-Worn": "15.03₽",
+          "Battle-Scarred": "16.23₽"
+        },
+        "name_rus": "P250 | Киберпанцирь",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "Negev | dev_texture": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouL-iLhFf0Ob3fzhF6cqJkIWdg_LsJ67Dk1Rd4cJ5ntbN9J7yjRq1-xBqNWuld9TEIQ9qZV_TrlbsyLrvgZO-u5rKwXZg6SIq4XnVnEC0n1gSOdjW9rAC/360fx360f",
+        "img_path": "Negev I dev_texture.png",
+        "prices": {
+          "Factory New": "$0.97",
+          "Minimal Wear": "$0.47",
+          "Field-Tested": "$0.23",
+          "Well-Worn": "$0.26",
+          "Battle-Scarred": "$0.23"
+        },
+        "rus_prices": {
+          "Factory New": "58.30₽",
+          "Minimal Wear": "28.25₽",
+          "Field-Tested": "13.82₽",
+          "Well-Worn": "15.63₽",
+          "Battle-Scarred": "13.82₽"
+        },
+        "name_rus": "Негев | dev_texture",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "MAC-10 | Button Masher": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7umeldf0Ob3fDxBvYyJhI-Zg_b2P77ummJW4NFOhujT8om7jACx8kRtYW6iLYTAIVRvYFrY8lXrxL-5hZ6_7czBzXRrvyQq4y3elgv330_bBVmBuA/360fx360f",
+        "img_path": "MAC-10 I Button Masher.png",
+        "prices": {
+          "Factory New": "$0.95",
+          "Minimal Wear": "$0.4",
+          "Field-Tested": "$0.23",
+          "Well-Worn": "$0.23",
+          "Battle-Scarred": "$0.21"
+        },
+        "rus_prices": {
+          "Factory New": "57.09₽",
+          "Minimal Wear": "24.04₽",
+          "Field-Tested": "13.82₽",
+          "Well-Worn": "13.82₽",
+          "Battle-Scarred": "12.62₽"
+        },
+        "name_rus": "MAC-10 | Кнопкодав",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "Desert Eagle | Trigger Discipline": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7duJgJKCkPDxIYTVn3hS4dV9g-fEyoD8j1yglB89IT6mOo_BegA_ZFHU_we-xue6hsC76czBzSFmvSJ0sXzZmxW_100ZaOZrhKaACQLJyKyK7VI/360fx360f",
+        "img_path": "Desert Eagle I Trigger Discipline.png",
+        "prices": {
+          "Factory New": "$3.12",
+          "Minimal Wear": "$1.3",
+          "Field-Tested": "$0.53",
+          "Well-Worn": "$0.31",
+          "Battle-Scarred": "$0.28"
+        },
+        "rus_prices": {
+          "Factory New": "187.51₽",
+          "Minimal Wear": "78.13₽",
+          "Field-Tested": "31.85₽",
+          "Well-Worn": "18.63₽",
+          "Battle-Scarred": "16.83₽"
+        },
+        "name_rus": "Desert Eagle | Стрелковая дисциплина",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "AK-47 | Slate": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhnwMzJemkV08ykm4aOhOT9PLXQmlRd4cJ5ntbN9J7yjRqw-0o4ZWvwcIbEdQQ7Ml7Tr1nvwufvgMC6us-bmHZi6HEgsCvYlkC_n1gSOasHEuYf/360fx360f",
+        "img_path": "AK-47 I Slate.png",
+        "prices": {
+          "Factory New": "$12.26",
+          "Minimal Wear": "$5.3",
+          "Field-Tested": "$2.89",
+          "Well-Worn": "$2.85",
+          "Battle-Scarred": "$2.9"
+        },
+        "rus_prices": {
+          "Factory New": "736.83₽",
+          "Minimal Wear": "318.53₽",
+          "Field-Tested": "173.69₽",
+          "Well-Worn": "171.28₽",
+          "Battle-Scarred": "174.29₽"
+        },
+        "name_rus": "AK-47 | Сланец",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      }
+    },
+    "pink": {
+      "MP9 | Food Chain": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6r8FAR17P7YKAJE49Oyq4ODlv76DLfYkWNF18lwmO7Eu9mt0QGy_xA_a2_3J46SIwA_MFvX8lK6xu7vhpHpusidyHtmuXYlsSnD30vgbTUHI8E/360fx360f",
+        "img_path": "MP9 I Food Chain.png",
+        "prices": {
+          "Factory New": "$8.94",
+          "Minimal Wear": "$3.93",
+          "Field-Tested": "$1.95",
+          "Well-Worn": "$1.64",
+          "Battle-Scarred": "$1.57"
+        },
+        "rus_prices": {
+          "Factory New": "537.29₽",
+          "Minimal Wear": "236.19₽",
+          "Field-Tested": "117.19₽",
+          "Well-Worn": "98.56₽",
+          "Battle-Scarred": "94.36₽"
+        },
+        "name_rus": "MP9 | Пищевая цепь",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "XM1014 | XOXO": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PLZTiVPvYznwL-bgvn_DLfYkWNF18lwmO7Eu9T23lG2_hE_NWvwIIeSewE_YgnV-AO_kOu6h5Tvupmay3MwvyIi5XjD30vg9oIGPLs/360fx360f",
+        "img_path": "XM1014 I XOXO.png",
+        "prices": {
+          "Factory New": "$9.29",
+          "Minimal Wear": "$3.24",
+          "Field-Tested": "$1.66",
+          "Well-Worn": "$1.55",
+          "Battle-Scarred": "$1.58"
+        },
+        "rus_prices": {
+          "Factory New": "558.33₽",
+          "Minimal Wear": "194.72₽",
+          "Field-Tested": "99.77₽",
+          "Well-Worn": "93.16₽",
+          "Battle-Scarred": "94.96₽"
+        },
+        "name_rus": "XM1014 | Целую-обнимаю",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "Galil AR | Chromatic Aberration": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbupIgthwczLZAJF7dC_mL-In-X7PrruhmJf4_p9g-7J4bP5iUazrl05YWCgdo6WelJrYA6D_FK_ybrsg8PovsnOy3Rg6Cd0tiqLnhXmhUxEcKUx0gvh2894/360fx360f",
+        "img_path": "Galil AR I Chromatic Aberration.png",
+        "prices": {
+          "Factory New": "$9.1",
+          "Minimal Wear": "$3.96",
+          "Field-Tested": "$1.99",
+          "Well-Worn": "$1.55",
+          "Battle-Scarred": "$1.55"
+        },
+        "rus_prices": {
+          "Factory New": "546.91₽",
+          "Minimal Wear": "238.00₽",
+          "Field-Tested": "119.60₽",
+          "Well-Worn": "93.16₽",
+          "Battle-Scarred": "93.16₽"
+        },
+        "name_rus": "Автомат «Галиль» | Хроматическая аберрация",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      }
+    },
+    "red": {
+      "USP-S | The Traitor": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09ulq5WYh-TLO7rfkW5V5cR_teXI8oTht1i1uRQ5fTjzJY6cclBqNArY-VK7xe3o0cC77cvPz3Zi6ydw4Snbyhfh0ksdbeFxxavJpJcZ4v4/360fx360f",
+        "img_path": "USP-S I The Traitor.png",
+        "prices": {
+          "Factory New": "$64.33",
+          "Minimal Wear": "$28.29",
+          "Field-Tested": "$15.09",
+          "Well-Worn": "$12.21",
+          "Battle-Scarred": "$11.47"
+        },
+        "rus_prices": {
+          "Factory New": "3866.23₽",
+          "Minimal Wear": "1700.23₽",
+          "Field-Tested": "906.91₽",
+          "Well-Worn": "733.82₽",
+          "Battle-Scarred": "689.35₽"
+        },
+        "name_rus": "USP-S | Предатель",
+        "rarity_index": 5,
+        "rarity_color": "#eb4b4b"
+      },
+      "M4A4 | In Living Color": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09C5goW0m_7zO6_ummpD78A_3--W89r02wTs_hI5NzrydY6SelJqYFjY8lC_xeq6gp61tMzLnSBg7j5iuyjjy9o9kg/360fx360f",
+        "img_path": "M4A4 I In Living Color.png",
+        "prices": {
+          "Factory New": "$56.58",
+          "Minimal Wear": "$21.11",
+          "Field-Tested": "$6.61",
+          "Well-Worn": "$7.33",
+          "Battle-Scarred": "$4.64"
+        },
+        "rus_prices": {
+          "Factory New": "3400.46₽",
+          "Minimal Wear": "1268.71₽",
+          "Field-Tested": "397.26₽",
+          "Well-Worn": "440.53₽",
+          "Battle-Scarred": "278.86₽"
+        },
+        "name_rus": "M4A4 | В живом цвете",
+        "rarity_index": 5,
+        "rarity_color": "#eb4b4b"
+      }
+    }
+  }
+}

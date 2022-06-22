@@ -1,0 +1,70 @@
+{
+  "case_img_path": "Chroma 2 Case.png",
+  "case_name": "Chroma 2 Case",
+  "case_name_rus": "Хромированный кейс #2",
+  "items": {
+    "AK-47 | Elite Build": {
+      "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09G3h5SOhe7LP7LWnn9u5MRjjeyPod-l3VfkqRJoMWnxd9OQcQdoMljYqVO5xLi-g8e16JXOnSNh6XYlsGGdwUI-f1fsZg/360fx360f",
+      "img_path": "AK-47 I Elite Build.png",
+      "prices": {
+        "Factory New": "$4.73",
+        "Minimal Wear": "$1.91",
+        "Field-Tested": "$1.35",
+        "Well-Worn": "$0.84",
+        "Battle-Scarred": "$0.82"
+      },
+      "rus_prices": {
+        "Factory New": "274,81 pуб.",
+        "Minimal Wear": "111,02 pуб.",
+        "Field-Tested": "79,30 pуб.",
+        "Well-Worn": "49,10 pуб.",
+        "Battle-Scarred": "48 pуб."
+      },
+      "name_rus": "AK-47 | Элитное снаряжение",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    "MP7 | Armor Core": {
+      "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFAZx7P7YJgJX4MiklY2Ek_LmPYTdn2xZ_Pp9i_vG8MKg2wHlrkJlYW-mINecdw83NVnU8wK6yOru1J66vJ6fzXNnuXZ07HbUgVXp1iCJZ-qy/360fx360f",
+      "img_path": "MP7 I Armor Core.png",
+      "prices": {
+        "Factory New": "$0.25",
+        "Minimal Wear": "$0.12",
+        "Field-Tested": "$0.09",
+        "Well-Worn": "$0.10",
+        "Battle-Scarred": "$0.11"
+      },
+      "rus_prices": {
+        "Factory New": "14,12 pуб.",
+        "Minimal Wear": "6,27 pуб.",
+        "Field-Tested": "4,10 pуб.",
+        "Well-Worn": "5,34 pуб.",
+        "Battle-Scarred": "5,40 pуб."
+      },
+      "name_rus": "Desert Eagle | Бронзовая декорация",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    "Desert Eagle | Bronze Deco": {
+      "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFAZx7P7YJgJX4MiklY2Ek_LmPYTdn2xZ_Pp9i_vG8MKg2wHlrkJlYW-mINecdw83NVnU8wK6yOru1J66vJ6fzXNnuXZ07HbUgVXp1iCJZ-qy/360fx360f",
+      "img_path": "MP7 I Armor Core.png",
+      "prices": {
+        "Factory New": "$0.25",
+        "Minimal Wear": "$0.12",
+        "Field-Tested": "$0.09",
+        "Well-Worn": "$0.10",
+        "Battle-Scarred": "$0.11"
+      },
+      "rus_prices": {
+        "Factory New": "14,12 pуб.",
+        "Minimal Wear": "6,27 pуб.",
+        "Field-Tested": "4,10 pуб.",
+        "Well-Worn": "5,34 pуб.",
+        "Battle-Scarred": "5,40 pуб."
+      },
+      "name_rus": "Desert Eagle | Бронзовая декорация",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    }
+  }
+}

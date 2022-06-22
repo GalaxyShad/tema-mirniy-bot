@@ -1,0 +1,136 @@
+{
+  "case_name": "eSports 2014 Summer Case",
+  "case_name_rus": "Летний кейс eSports 2014",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk5kKhZDpYX3e1Y07ODdfDBH_pKzwdfSkqTyZLjQxjsF7sEoiLyQ9I2ljgHt_EZlYzr6J4DHIA9oZ1-D5BHglkR7Cs6C/360fx360f",
+  "case_img_path": "eSports 2014 Summer Case.png",
+  "items": {
+    "0": {},
+    "1": {},
+    "2": {
+      "SSG 08 | Dark Water": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopamie19f0v73azhA_t2JkIGZnMj4OrzZglRd6dd2j6eUo9-j2wPl_UpqNjymJ4TBe1c9NF3Y8gfowrzrh8C67p7KznVl7ikr-z-DyCzdmBI3/360fx360f",
+        "img_path": "SSG 08 I Dark Water.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "SSG 08 | Тёмная вода",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "MAC-10 | Ultraviolet": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7umeldfwPz3YShQ_NCzq4yCkP_gDLfQhGxUpsYlj7uToN7zjQHkqhI-Z2uhItLGJg45YA7T-Va2x7jpjcO6vpvInCN9-n511zd-YeM/360fx360f",
+        "img_path": "MAC-10 I Ultraviolet.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "MAC-10 | Ультрафиолет",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "USP-S | Blood Tiger": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09Svq5KOk-P9NL7DqWdY781lteXA54vwxgGw_ERkNW_zJ4bBJwI3Y1HWrFK6yO7nhJG0vcnBzSc1uCEntHaPlhWpwUYby7pd3Ws/360fx360f",
+        "img_path": "USP-S I Blood Tiger.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "USP-S | Кровавый тигр",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "CZ75-Auto | Hexane": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3czFX6dSzjL-HnvD8J4Tdl3lW7Ysh2bvEoY6l0Q3t80BsMm32cIGRcQ9qYV-GqwTox-i9jZS1tczIyXc1pGB8smpwrusP/360fx360f",
+        "img_path": "CZ75-Auto I Hexane.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "CZ75-Auto | Гексан",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Negev | Bratatat": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpouL-iLhFf0Ob3cy9D-N2ilZS0mfLzNq3ummJW4NFOhujT8om7igPh80o_YGr2ctSScgA4NV3TqFC2yOm6hZa86p3KyCZguyYk4X6ImQv330_BOKKR0A/360fx360f",
+        "img_path": "Negev I Bratatat.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "Негев | Тра-та-та",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "XM1014 | Red Python": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgporrf0e1Y07PvRTi5M7dezh4uCmcjmNr_ummJW4NFOhujT8om7jATl8hJuZjzyJNDAdwVoYw2ErFO3xOa515W-vs7MwHRhu3FwtnuJygv330_KyaSNdA/360fx360f",
+        "img_path": "XM1014 I Red Python.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "XM1014 | Красный питон",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "3": {
+      "PP-Bizon | Blue Streak": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3Yi1O7ciikZK0m_7zO6_ummpD78A_3eiWod2ijA3h_0tpMDyhJoeRelRqNVuE-FO2w-_mhpa7vJXLnCNr6z5iuyjxm99JtA/360fx360f",
+        "img_path": "PP-Bizon I Blue Streak.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "ПП-19 «Бизон» | Синяя струя",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "P90 | Virus": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FA957OnHfD9L6eO6nYeDg8j4MqnWkyUG7pMniLqR8Nqs2Aa1rkRrYWuhI4-Qc1BqZlzU_ADrxrvm15W0tJ2c1zI97eG9a5dJ/360fx360f",
+        "img_path": "P90 I Virus.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {},
+        "name_rus": "P90 | Вирус",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      }
+    },
+    "4": {},
+    "5": {}
+  }
+}

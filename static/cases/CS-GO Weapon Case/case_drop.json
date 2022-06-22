@@ -1,0 +1,207 @@
+{
+  "case_name": "CS:GO Weapon Case",
+  "case_name_rus": "Оружейный кейс CS:GO",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT/360fx360f",
+  "case_img_path": "CS-GO Weapon Case.png",
+  "items": {
+    "white": {},
+    "lightblue": {},
+    "blue": {
+      "MP7 | Skulls": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou6ryFA957ODDZDFO_-O6nYeDg8j4MqnWkyUC7ZYp07iT94j3jVXsqkE-Y2qhJYKcJwA_aA7ZrFC6wLvqgcDt78ud1zI97Xw9NqWl/360fx360f",
+        "img_path": "MP7 I Skulls.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": "$17.16",
+          "Field-Tested": "$13.84",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": null,
+          "Minimal Wear": "1031.32₽",
+          "Field-Tested": "831.78₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "MP7 | Черепа",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "AUG | Wings": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot6-iFA957PXNcClK6c6lq4GekMj4OrzZglRd6dd2j6fEpNik0Vbh-RJvNz2nINTAJgM9Y1CG_lK2lL_q0cPtvJqbySAyuCQq-z-DyC4dac1H/360fx360f",
+        "img_path": "AUG I Wings.png",
+        "prices": {
+          "Factory New": "$16.27",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "977.83₽",
+          "Minimal Wear": null,
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "AUG | Крылья",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "SG 553 | Ultraviolet": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3YShQ_NCzq4yCkP_gDLfQhGxUppEl3rGSptmjigfn_0dqZTigdoDAdQ4_YV3XrlnoyOi-gpXv7p7OzyR9-n51Wu8Hu6Y/360fx360f",
+        "img_path": "SG 553 I Ultraviolet.png",
+        "prices": {
+          "Factory New": "$26.33",
+          "Minimal Wear": "$14.56",
+          "Field-Tested": "$14.07",
+          "Well-Worn": null,
+          "Battle-Scarred": "$27.57"
+        },
+        "rus_prices": {
+          "Factory New": "1582.43₽",
+          "Minimal Wear": "875.06₽",
+          "Field-Tested": "845.61₽",
+          "Well-Worn": null,
+          "Battle-Scarred": "1656.96₽"
+        },
+        "name_rus": "SG 553 | Ультрафиолет",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "purple": {
+      "Glock-18 | Dragon Tattoo": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73dS9D69O4q4eHmPT_DLfYkWNF18lwmO7Eu4mh2lXj-RJtajjxJoWcIQ83Y13X-QO2ye_ojJ61u8yfynUwvXYq4XbD30vgIiQpgfY/360fx360f",
+        "img_path": "Glock-18 I Dragon Tattoo.png",
+        "prices": {
+          "Factory New": "$80.96",
+          "Minimal Wear": "$75.48",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "4865.70₽",
+          "Minimal Wear": "4536.35₽",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Glock-18 | Татуировка дракона",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "USP-S | Dark Water": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ0927q5qOleX1DL_QhGBu5Mx2gv3--Y3nj1H6qhc4ZGn6doTAIAA2YlDV-Qe3xO7n0cLqtc7Ly3djuXQlsCmPlhy1hAYMMLLPDZXOFA/360fx360f",
+        "img_path": "USP-S I Dark Water.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": "$68.71",
+          "Field-Tested": "$58.14",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": null,
+          "Minimal Wear": "4129.47₽",
+          "Field-Tested": "3494.21₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "USP-S | Тёмная вода",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "M4A1-S | Dark Water": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3mb-RkvXmMoTVl3la18l4jeHVyoD0mlOx5RVoa23wIo7EdgE2N12F-lPqwLzm0ZPpvpXIz3FmvnZ34n_YmhW01xtSLrs4m_P9LyY/360fx360f",
+        "img_path": "M4A1-S I Dark Water.png",
+        "prices": {
+          "Factory New": null,
+          "Minimal Wear": "$69.12",
+          "Field-Tested": "$57.24",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": null,
+          "Minimal Wear": "4154.11₽",
+          "Field-Tested": "3440.12₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "M4A1-S | Тёмная вода",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      }
+    },
+    "pink": {
+      "AK-47 | Case Hardened": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhhwszHeDFH6OO6nYeDg8j4MqnWkyUIusYpjriToImhjQHg_EZkN2r0cY-RdAI3Z1jT-gS3kO_njZW_7pjB1zI97T2FIK3X/360fx360f",
+        "img_path": "AK-47 I Case Hardened.png",
+        "prices": {
+          "Factory New": "$253.61",
+          "Minimal Wear": "$190.60",
+          "Field-Tested": "$149.99",
+          "Well-Worn": "$132.79",
+          "Battle-Scarred": "$112.41"
+        },
+        "rus_prices": {
+          "Factory New": "15241.96₽",
+          "Minimal Wear": "11455.06₽",
+          "Field-Tested": "9014.40₽",
+          "Well-Worn": "7980.68₽",
+          "Battle-Scarred": "6755.84₽"
+        },
+        "name_rus": "AK-47 | Поверхностная закалка",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "Desert Eagle | Hypnotic": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLJTitH_si_k4-0m_7zO6_ummpD78A_0rzApNrw3FayqUs-YjqgIoWccVVvZAzQqVfqwr_u0JDpup3LynFhuT5iuyj9I0M0JQ/360fx360f",
+        "img_path": "Desert Eagle I Hypnotic.png",
+        "prices": {
+          "Factory New": "$86.25",
+          "Minimal Wear": "$95.04",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "5183.62₽",
+          "Minimal Wear": "5711.90₽",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Desert Eagle | Гипноз",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      }
+    },
+    "red": {
+      "AWP | Lightning Strike": {
+        "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAZt7P_BdjVW4tW4k7-KgOfLP7LWnn9u5MRjjeyPptuj2Qzt_0JsYDymJNDAIQ8-MA7U_1i3w-bphpO1v56bmHBk7yMksWGdwUJq4NI0lg/360fx360f",
+        "img_path": "AWP I Lightning Strike.png",
+        "prices": {
+          "Factory New": "$492.47",
+          "Minimal Wear": "$515.91",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "29597.45₽",
+          "Minimal Wear": "31006.19₽",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "AWP | Удар молнии",
+        "rarity_index": 5,
+        "rarity_color": "#eb4b4b"
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "name": "Shattered Web Case",
+  "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFUznaCaJWVDvozlzdONwvKjYLiBk24IsZEl0uuYrNjw0A3n80JpZWzwIYWLMlhpLvhcskA/360fx360f",
+  "drop": [
+    {
+      "name": "MP5-SD | Acid Wash",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Nova | Plume",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "G3SG1 | Black Sand",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "R8 Revolver | Memento",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Dual Berettas | Balance",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | Torn",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "M249 | Warbird",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "PP-Bizon | Embargo",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "AK-47 | Rat Rod",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "AUG | Arctic Wolf",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "MP7 | Neon Ply",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P2000 | Obsidian",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Tec-9 | Decimator",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SG 553 | Colony IV",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SSG 08 | Bloodshot",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AWP | Containment Breach",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "MAC-10 | Stalker",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ],
+  "name_rus": "\u041a\u0435\u0439\u0441 \u00ab\u0420\u0430\u0441\u043a\u043e\u043b\u043e\u0442\u0430\u044f \u0441\u0435\u0442\u044c\u00bb",
+  "drop_rus": [
+    {
+      "name": "MP5-SD | \u041a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 \u0434\u0443\u0448",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Nova | \u041f\u0435\u0440\u043e",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "G3SG1 | \u0427\u0451\u0440\u043d\u044b\u0439 \u043f\u0435\u0441\u043e\u043a",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "\u0420\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440 R8 | \u0420\u0435\u043b\u0438\u043a\u0432\u0438\u044f",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Dual Berettas | \u0411\u0430\u043b\u0430\u043d\u0441",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | \u041d\u0430\u0434\u0440\u044b\u0432",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "M249 | \u0412\u0435\u0442\u0435\u0440\u0430\u043d \u043f\u043e\u043b\u0451\u0442\u043e\u0432",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "\u041f\u041f-19 \u00ab\u0411\u0438\u0437\u043e\u043d\u00bb | \u042d\u043c\u0431\u0430\u0440\u0433\u043e",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "AK-47 | \u041a\u043e\u043b\u044b\u043c\u0430\u0433\u0430",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "AUG | \u0410\u0440\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0432\u043e\u043b\u043a",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "MP7 | \u041d\u0435\u043e\u043d\u043e\u0432\u0430\u044f \u0444\u0430\u043d\u0435\u0440\u0430",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P2000 | \u041e\u0431\u0441\u0438\u0434\u0438\u0430\u043d",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Tec-9 | \u041e\u043f\u0443\u0441\u0442\u043e\u0448\u0438\u0442\u0435\u043b\u044c",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SG 553 | \u041a\u043e\u043b\u043e\u043d\u0438\u044f IV",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SSG 08 | \u041a\u0440\u043e\u0432\u0430\u0432\u0430\u044f \u043f\u0435\u043b\u0435\u043d\u0430",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "AWP | \u0420\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    },
+    {
+      "name": "MAC-10 | \u041d\u0430 \u043e\u0445\u043e\u0442\u0435",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ]
+}

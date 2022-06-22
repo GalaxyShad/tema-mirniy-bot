@@ -1,0 +1,129 @@
+{
+  "name": "CS:GO Weapon Case 2",
+  "img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5PT8elUwgKKZJmtEvo_kxITZk6StNe-Fz2pTu8Aj3eqVpIqgjVfjrRI9fSmtc1Nw-Kh3/360fx360f",
+  "drop": [
+    {
+      "name": "Tec-9 | Blue Titanium",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "M4A1-S | Blood Tiger",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "FAMAS | Hexane",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "P250 | Hive",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | Crimson Web",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Five-SeveN | Case Hardened",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "MP9 | Hypnotic",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Nova | Graphite",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Dual Berettas | Hemoglobin",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P90 | Cold Blooded",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "USP-S | Serum",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SSG 08 | Blood in the Water",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ],
+  "name_rus": "\u041e\u0440\u0443\u0436\u0435\u0439\u043d\u044b\u0439 \u043a\u0435\u0439\u0441 CS:GO, \u0442\u0438\u0440\u0430\u0436 #2",
+  "drop_rus": [
+    {
+      "name": "Tec-9 | \u0421\u0438\u043d\u0438\u0439 \u0442\u0438\u0442\u0430\u043d",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "M4A1-S | \u041a\u0440\u043e\u0432\u0430\u0432\u044b\u0439 \u0442\u0438\u0433\u0440",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "FAMAS | \u0413\u0435\u043a\u0441\u0430\u043d",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "P250 | \u0423\u043b\u0435\u0439",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "SCAR-20 | \u041a\u0440\u043e\u0432\u0430\u0432\u0430\u044f \u043f\u0430\u0443\u0442\u0438\u043d\u0430",
+      "rarity_index": 2,
+      "rarity_color": "#4b69ff"
+    },
+    {
+      "name": "Five-SeveN | \u041f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u043d\u0430\u044f \u0437\u0430\u043a\u0430\u043b\u043a\u0430",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "MP9 | \u0413\u0438\u043f\u043d\u043e\u0437",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Nova | \u0413\u0440\u0430\u0444\u0438\u0442",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "Dual Berettas | \u0413\u0435\u043c\u043e\u0433\u043b\u043e\u0431\u0438\u043d",
+      "rarity_index": 3,
+      "rarity_color": "#8847ff"
+    },
+    {
+      "name": "P90 | \u0425\u043b\u0430\u0434\u043d\u043e\u043a\u0440\u043e\u0432\u043d\u044b\u0439",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "USP-S | \u0421\u044b\u0432\u043e\u0440\u043e\u0442\u043a\u0430",
+      "rarity_index": 4,
+      "rarity_color": "#d32ce6"
+    },
+    {
+      "name": "SSG 08 | \u041a\u0440\u043e\u0432\u044c \u0432 \u0432\u043e\u0434\u0435",
+      "rarity_index": 5,
+      "rarity_color": "#eb4b4b"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "case_name": "CS:GO Weapon Case 3",
+  "case_name_rus": "Оружейный кейс CS:GO, тираж #3",
+  "case_img_url": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5fSnf15k0KGacG0UtYXnzdTdkq-gariGlDgHvMcmjryZotqg2wCxrUVtfSmtc20v4quI/360fx360f",
+  "case_img_path": "CS-GO Weapon Case 3.png",
+  "items": {
+    "white": {},
+    "lightblue": {},
+    "blue": {
+      "CZ75-Auto | Crimson Web": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf2-r3ZjhA_-O6nYeDg8j4MqnWkyUDuJwiiL2S9InziQzmrhZqZGjwd4KScAU2ZQ2B-Fm9l7q7gZLqvJ_K1zI97dfjTfNR/360fx360f",
+        "img_path": "CZ75-Auto I Crimson Web.png",
+        "prices": {
+          "Factory New": "$12.91",
+          "Minimal Wear": "$1.22",
+          "Field-Tested": null,
+          "Well-Worn": "$0.72",
+          "Battle-Scarred": "$0.70"
+        },
+        "rus_prices": {
+          "Factory New": "775.89₽",
+          "Minimal Wear": "73.32₽",
+          "Field-Tested": null,
+          "Well-Worn": "43.27₽",
+          "Battle-Scarred": "42.07₽"
+        },
+        "name_rus": "CZ75-Auto | Кровавая паутина",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "P2000 | Red FragCam": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovrG1eVcwg8zAaAJS49Cvq4OKmvjLP7LWnn9u5MRjjeyP8Nj23gHj_RZsYmv6I4LHIwA-NF6EqAK5wbi6gMXovc6YmiFguiAj5GGdwUKuyUCE2Q/360fx360f",
+        "img_path": "P2000 I Red FragCam.png",
+        "prices": {
+          "Factory New": "$1.20",
+          "Minimal Wear": "$0.88",
+          "Field-Tested": "$0.77",
+          "Well-Worn": "$0.81",
+          "Battle-Scarred": "$0.80"
+        },
+        "rus_prices": {
+          "Factory New": "72.12₽",
+          "Minimal Wear": "52.89₽",
+          "Field-Tested": "46.28₽",
+          "Well-Worn": "48.68₽",
+          "Battle-Scarred": "48.08₽"
+        },
+        "name_rus": "P2000 | Красные фрагменты",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Dual Berettas | Panther": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpos7asPwJfwPz3YTxM-NSzhr-HnvD8J4Tdl3lW7Ysh27CVpt3321K3qkJkMWnxI9KVdVBrY1GE-gTrxry5jZ7o6prMzHVlpGB8sjtQiIKd/360fx360f",
+        "img_path": "Dual Berettas I Panther.png",
+        "prices": {
+          "Factory New": "$1.73",
+          "Minimal Wear": "$1.11",
+          "Field-Tested": "$0.84",
+          "Well-Worn": "$0.97",
+          "Battle-Scarred": "$0.81"
+        },
+        "rus_prices": {
+          "Factory New": "103.97₽",
+          "Minimal Wear": "66.71₽",
+          "Field-Tested": "50.48₽",
+          "Well-Worn": "58.30₽",
+          "Battle-Scarred": "48.68₽"
+        },
+        "name_rus": "Dual Berettas | Пантера",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "USP-S | Stainless": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ092nq5WYh8jnJ7rYmGdU-9ZOhuDG_ZjKhFWmrBZyYD_1cdLHelNsNVzR-Vm5xezqhZK0uZScySZg7ydx4H6MnRbkghEYPPsv26JVZyAeTQ/360fx360f",
+        "img_path": "USP-S I Stainless.png",
+        "prices": {
+          "Factory New": "$16.60",
+          "Minimal Wear": "$7.13",
+          "Field-Tested": "$3.00",
+          "Well-Worn": "$4.31",
+          "Battle-Scarred": "$2.78"
+        },
+        "rus_prices": {
+          "Factory New": "997.66₽",
+          "Minimal Wear": "428.51₽",
+          "Field-Tested": "180.30₽",
+          "Well-Worn": "259.03₽",
+          "Battle-Scarred": "167.08₽"
+        },
+        "name_rus": "USP-S | Нержавейка",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      },
+      "Glock-18 | Blue Fissure": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf2-r3ci9D_cmzmJWZksj4OrzZglRd6dd2j6eZ8NWijVbl_BJsYjz0J9WRdVc2aFDX_Fm7lenrhcS_uJmYnCBh6XIq-z-DyEnn8nMM/360fx360f",
+        "img_path": "Glock-18 I Blue Fissure.png",
+        "prices": {
+          "Factory New": "$10.40",
+          "Minimal Wear": "$1.28",
+          "Field-Tested": "$0.98",
+          "Well-Worn": "$1.26",
+          "Battle-Scarred": "$0.86"
+        },
+        "rus_prices": {
+          "Factory New": "625.04₽",
+          "Minimal Wear": "76.93₽",
+          "Field-Tested": "58.90₽",
+          "Well-Worn": "75.73₽",
+          "Battle-Scarred": "51.69₽"
+        },
+        "name_rus": "Glock-18 | Синяя трещина",
+        "rarity_index": 2,
+        "rarity_color": "#4b69ff"
+      }
+    },
+    "purple": {
+      "CZ75-Auto | Tread Plate": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73dTRD4dO4kL-bm_bgNoTdn2xZ_Pp9i_vG8MLwjgDm_hBkYTuicYPBewE_MwzVr1DryL3qgcS178nLn3tquHUmsH7bgVXp1lvHN_VN/360fx360f",
+        "img_path": "CZ75-Auto I Tread Plate.png",
+        "prices": {
+          "Factory New": "$6.56",
+          "Minimal Wear": "$5.90",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "394.26₽",
+          "Minimal Wear": "354.59₽",
+          "Field-Tested": null,
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "CZ75-Auto | Листовая сталь",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "Tec-9 | Titanium Bit": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoor-mcjhh3szOfShW6diJgIWIzsj4OrzZglRd6dd2j6fD846h3QTi-kZsMm_0IdSXdlI9YF_YrFW7xuvvgsLuvpTJynFlvnQk-z-DyLGeENsm/360fx360f",
+        "img_path": "Tec-9 I Titanium Bit.png",
+        "prices": {
+          "Factory New": "$6.74",
+          "Minimal Wear": "$6.10",
+          "Field-Tested": "$5.70",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "405.07₽",
+          "Minimal Wear": "366.61₽",
+          "Field-Tested": "342.57₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Tec-9 | Частица титана",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "Desert Eagle | Heirloom": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjhM6863goWPqPPxMrzdk1Rd4cJ5ntbN9J7yjRrs-0c9YjjzJdeXe1RoaVjW_VLsxu3m05Xp7p_LyXBkuHEk7XzVnhy0n1gSOexptizi/360fx360f",
+        "img_path": "Desert Eagle I Heirloom.png",
+        "prices": {
+          "Factory New": "$12.78",
+          "Minimal Wear": "$5.94",
+          "Field-Tested": "$4.41",
+          "Well-Worn": "$7.91",
+          "Battle-Scarred": "$4.75"
+        },
+        "rus_prices": {
+          "Factory New": "768.08₽",
+          "Minimal Wear": "356.99₽",
+          "Field-Tested": "265.04₽",
+          "Well-Worn": "475.39₽",
+          "Battle-Scarred": "285.48₽"
+        },
+        "name_rus": "Desert Eagle | Наследие",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      },
+      "Five-SeveN | Copper Galaxy": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTjxP09-5hJCOhcjyP77SnXhu5Mx2gv3--Y3nj1H6r0E9NWHyINSSdAE4YlDY-lW5wby8gpa_tcnMzHRq73Il4S3fmRywiQYMMLI39ggilQ/360fx360f",
+        "img_path": "Five-SeveN I Copper Galaxy.png",
+        "prices": {
+          "Factory New": "$6.62",
+          "Minimal Wear": "$5.94",
+          "Field-Tested": "$5.87",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "397.86₽",
+          "Minimal Wear": "356.99₽",
+          "Field-Tested": "352.79₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "Five-SeveN | Медная галактика",
+        "rarity_index": 3,
+        "rarity_color": "#8847ff"
+      }
+    },
+    "pink": {
+      "CZ75-Auto | The Fuschia Is Now": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73dyhR79S_lb-HnvD8J4Tdl3lW7YsoieiVp92t0Afh_0FqMG76JYKdcFc9NV-DqVLswe67hZbvtZjBnXZjpGB8sv4Btgx7/360fx360f",
+        "img_path": "CZ75-Auto I The Fuschia Is Now.png",
+        "prices": {
+          "Factory New": "$49.25",
+          "Minimal Wear": "$32.01",
+          "Field-Tested": "$22.47",
+          "Well-Worn": "$70.67",
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "2959.93₽",
+          "Minimal Wear": "1923.80₽",
+          "Field-Tested": "1350.45₽",
+          "Well-Worn": "4247.27₽",
+          "Battle-Scarred": null
+        },
+        "name_rus": "CZ75-Auto | Новая фуксия",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      },
+      "P250 | Undertow": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhh3szYI2gS096zlYSOk8jkMrLfglRd4cJ5ntbN9J7yjRrmrxc4Yj33doDBJgBoMFrQ8lO-we_nhZTtup2YmiQys3Rzty7anRfjn1gSORMi-P6n/360fx360f",
+        "img_path": "P250 I Undertow.png",
+        "prices": {
+          "Factory New": "$48.78",
+          "Minimal Wear": "$39.94",
+          "Field-Tested": "$22.50",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "rus_prices": {
+          "Factory New": "2931.68₽",
+          "Minimal Wear": "2400.39₽",
+          "Field-Tested": "1352.25₽",
+          "Well-Worn": null,
+          "Battle-Scarred": null
+        },
+        "name_rus": "P250 | Цвета прибоя",
+        "rarity_index": 4,
+        "rarity_color": "#d32ce6"
+      }
+    },
+    "red": {
+      "CZ75-Auto | Victoria": {
+        "img_url": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0uL3dClB5Nmyq4ORwKLLP7LWnn9u5MRjjeyPoIr031HgrUZqZWnzcdDAI1VrM1HZq1i6yb3p08e56M7Kz3Zr6yNw7GGdwUIoyGMPfw/360fx360f",
+        "img_path": "CZ75-Auto I Victoria.png",
+        "prices": {
+          "Factory New": "$7.93",
+          "Minimal Wear": "$5.56",
+          "Field-Tested": "$4.40",
+          "Well-Worn": "$6.81",
+          "Battle-Scarred": "$4.10"
+        },
+        "rus_prices": {
+          "Factory New": "476.59₽",
+          "Minimal Wear": "334.16₽",
+          "Field-Tested": "264.44₽",
+          "Well-Worn": "409.28₽",
+          "Battle-Scarred": "246.41₽"
+        },
+        "name_rus": "CZ75-Auto | Виктория",
+        "rarity_index": 5,
+        "rarity_color": "#eb4b4b"
+      }
+    }
+  }
+}
